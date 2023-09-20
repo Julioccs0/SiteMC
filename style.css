@@ -1,0 +1,157 @@
+:root{
+    --gl-button-font-set-weight-functional-1: 700;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 100% !important;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.d-flex{
+    padding-bottom: 0px !important;
+}
+/* sidebar direita */
+
+.cm3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buscar{
+    max-width: 176px;
+}
+
+.bar-buscar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: rgb(247, 247, 247);
+    border-radius: 200px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bar-buscar:hover{
+    background: rgb(214, 214, 214);
+}
+
+.Icon-pesq{
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    display: inline-block;
+    border-radius: 200px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+}
+
+.Icon-pesq:hover{
+    background: rgb(255, 255, 255);
+}
+
+.bar-buscar svg{
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.inp-buscar{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(17, 17, 17);
+    line-height: 1.5;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 8px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.CartButton{
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 200px;
+    height: 35px;
+    width: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.CartButton:hover{
+    background: rgb(214, 214, 214);
+}
+
+.jfqaxh {
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 200px;
+    height: 35px;
+    width: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.jfqaxh:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.gjIExv {
+    width: 1em;
+    height: 1em;
+    user-select: none;
+    color: inherit;
+    font-size: 24px;
+}
+
+/* sidebar mid */
+
+.dif{
+    font-weight: var(--gl-button-font-set-weight-functional-1);
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    outline: none;
+    line-height: 1.5;
+}
+
+.dif:hover{
+    color: rgb(0, 0, 0);
+}
+
+.out{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    outline: none;
+    line-height: 1.5;
+}
+
+.out:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* carrosel */
+
+#myCarousel, .carousel-inner, #myCarousel, .carousel-item{
+    height: 90vh;
+}
